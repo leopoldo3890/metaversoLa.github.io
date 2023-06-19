@@ -111,6 +111,7 @@ body {
 .principal__paragraph {
     margin-bottom: 20px;
 }
+
 /*boton azul de la imagen de inicio*/
 .cta {
     display: inline-block;
@@ -131,7 +132,54 @@ body {
     border-radius: 32px;
 }
 
-/* About */
+.carousel-inner{
+    width: 700px; 
+    height: 150x;
+}
+
+/*seccion "Que es el metaverso"*/
+#Qmetaverso{
+    font-size: 70px;
+}
+#Submetaverso{
+    font-size: 50px;
+}
+
+/* Qué es el Metaverso */
+
+/*puntitos de colores con fondo blanco*/
+.QMetaverso {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #f0f0f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+}
+.QMetaverso__container_centro{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 1em;
+    align-items: center;
+}
+.QMetaverso__picture{
+    max-width: 500px;
+}
+
+.QMetaverso__paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.QMetaversoe__img{
+    width: 100%;
+    display: block;
+}
+#realYdigi{
+    width: 272.2px;
+    height: 272.2px;
+}
+
+/*contenido de "Es lo mismo "El Metaverso" a "La realidad virtual"*/
 
 .about {
     text-align: center;
@@ -171,6 +219,9 @@ body {
 .about__icon {
     width: 40px;
 }
+/*tarjetas de contenido "El Metaverso" a "La realidad virtual"*/
+
+
 #icon_Realidad{
     width: 200px; 
     height: 150x;
@@ -191,52 +242,7 @@ body {
     float:right;
 }
 
-
-.carousel-inner{
-    width: 700px; 
-    height: 150x;
-}
-
-#Qmetaverso{
-    font-size: 70px;
-}
-#Submetaverso{
-    font-size: 50px;
-}
-/* seccion con la lap (tiene Colores los puntos distintos) */
-
-.QMetaverso {
-    background-color: #e5e5f7;
-    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #f0f0f7 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
-    overflow: hidden;
-}
-.QMetaverso__container_centro{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 1em;
-    align-items: center;
-}
-.QMetaverso__picture{
-    max-width: 500px;
-}
-
-.QMetaverso__paragraph{
-    line-height: 1.7;
-    margin-bottom: 15px;
-}
-
-.QMetaversoe__img{
-    width: 100%;
-    display: block;
-}
-#realYdigi{
-    width: 272.2px;
-    height: 272.2px;
-}
-
-
+/*Qué es lo que buscamos ser*/
 .QBuscamos {
     background-color: #e5e5f7;
 }
@@ -249,140 +255,9 @@ body {
     line-height: 1.7;
 }
 
-
-/* price */
-
-.price{
-    text-align: center;
-}
-
-.price__table{
-    padding-top: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5em;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.price__element{
-    background-color: #e5e5f7;
-    text-align: center;
-    border-radius: 10px;
-    width: 330px;
-    padding: 40px;
-    --color-plan: #696871;
-    --color-price: #1D293F;
-    --bg-cta: #fff;
-    --color-cta: #5454D4;
-    --color-items: #696871;
-}
-
-.price__element--best{
-    width: 370px;
-    padding: 60px 40px;
-    background-color: #FF7143;
-    --color-plan: rgb(255 255 255 / 75%);
-    --color-price: #fff;
-    --bg-cta: #9F3919;
-    --color-cta: #FFF;
-    --color-items: #fff;
-}
-
-
-.price__name{
-    color: var(--color-plan);
-    margin-bottom: 15px;
-    font-weight: 300;
-}
-
-.price__price{
-    font-size: 2.5rem;
-    color: var(--color-price);
-}
-
-.price__items{
-    margin-top: 35px;
-    display: grid;
-    gap: 1em;
-    font-weight: 300;
-    font-size: 1.2rem;
-    margin-bottom: 50px;
-    color: var(--color-items);
-}
-
-.price__cta{
-    display: block;
-    padding: 20px 0;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: var(--bg-cta);
-    font-weight: 600;
-    color: var(--color-cta);
-    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
-}
-
-/* Testimony */
-
-.testimony{
-    background-color: #e5e5f7;
-}
-
-.testimony__container{
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
-    gap: 1em;
-    align-items: center;
-}
-
-.testimony__body{
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    opacity: 0;
-    pointer-events: none;
-}
-
-
-.testimony__body--show{
-    pointer-events: unset;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
-}
-
-.testimony__img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 50% 30%;
-}
-
-.testimony__texts{
-    max-width: 700px;
-}
-
-.testimony__course{
-    background-color: royalblue;
-    color: #fff;
-    display: inline-block;
-    padding: 5px;
-}
-
-.testimony__arrow{
-    width: 90%;
-    cursor: pointer;
-}
-
-/* Questions */
-
 .QBuscamos{
     text-align: center;
-    background-color: #e5e5f700;
+    background-color: #1616cb00;
 }
 
 .QBuscamos__copy{
@@ -391,121 +266,7 @@ body {
 
 }
 
-/* Footer */
-
-footer{
-    width: 100%;
-    background: #1D293F;
-    color: white;   
-    
-}
-
-.container-footer-all{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px;
-}
-
-.container-body{
-    display: flex;
-    justify-content: space-between;
-}
-
-.colum1{
-    max-width: 400px;
-}
-
-.colum1 h1{
-    font-size: 22px;
-}
-
-.colum1 p{
-    font-size: 14px;
-    color: #C7C7C7;
-    margin-top: 20px;
-}
-#colum1_img{
-    width: 60%;
-    
-}
-.colum2{
-    max-width: 400px;
-    
-}
-
-.colum2 h1{
-    font-size: 22px;
-}
-
-.row{
-    margin-top: 20px;
-    display: flex;
-}
-
-.row img{
-    width: 15%;
-    
-}
-
-.row label{
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #C7C7C7;
-}
-
-.colum3{
-    max-width: 400px;
-}
-
-.colum3 h1{
-    font-size: 22px;
-}
-
-.row2{
-    margin-top: 20px;
-    display: flex;
-}
-
-.row2 img{
-    width: 36px;
-    height: 36px;
-}
-
-.row2 label{
-    margin-top: 10px;
-    margin-left: 20px;
-    max-width: 140px;
-}
-
-.container-footer{
-    width: 100%;  
-    background: rgb(215, 215, 215);
-}
-
-.footer{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;  
-    padding: 20px;
-}
-
-.copyright{
-    color: rgb(0, 0, 0);
-}
-
-.copyright a{
-    text-decoration: none;
-    color: rgb(6,21,81);
-    font-weight: bold;
-}
-
-.information a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
+/*generales*/
 
 @media screen and (max-width: 1100px){
     
