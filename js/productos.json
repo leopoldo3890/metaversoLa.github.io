@@ -1,0 +1,182 @@
+[
+    {
+        "id": "conferencia-01",
+        "titulo": "Conferencia sobre el calentamiento global",
+        "imagen": "./imagenes/img_tienda/conferencias/01.jpg",
+        "categoria": {
+            "nombre": "Conferencia",
+            "id": "conferencia"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "conferencia-02",
+        "titulo": "Conferencia sobre la inmensidad del cosmos",
+        "imagen": "./imagenes/img_tienda/conferencias/02.jpg",
+        "categoria": {
+            "nombre": "Conferencia",
+            "id": "conferencia"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "conferencia-03",
+        "titulo": "Conferencia sobre las nuevas tecnologias",
+        "imagen": "./imagenes/img_tienda/conferencias/03.jpg",
+        "categoria": {
+            "nombre": "Conferencia",
+            "id": "conferencia"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "conferencia-04",
+        "titulo": "Conferencia sobre",
+        "imagen": "./imagenes/img_tienda/conferencias/04.jpg",
+        "categoria": {
+            "nombre": "Conferencia",
+            "id": "conferencia"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "conferencia-05",
+        "titulo": "Conferencia sobre",
+        "imagen": "./imagenes/img_tienda/conferencias/05.jpg",
+        "categoria": {
+            "nombre": "Conferencia",
+            "id": "conferencia"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-01",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/01.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-02",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/02.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-03",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/03.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-04",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/04.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-05",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/05.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-06",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/06.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-07",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/07.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "funcion_de_cine-08",
+        "titulo": "Exhibición de la película",
+        "imagen": "./imagenes/img_tienda/cine/08.jpg",
+        "categoria": {
+            "nombre": "Funcion de cine",
+            "id": "funcion de cine"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fiesta_priv-01",
+        "titulo": "Cumpleaños de",
+        "imagen": "./imagenes/img_tienda/reuniones/01.jpg",
+        "categoria": {
+            "nombre": "Reuniones privada",
+            "id": "reuniones privada"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fiesta_priv-02",
+        "titulo": "Cumpleaños de",
+        "imagen": "./imagenes/img_tienda/reuniones/02.jpg",
+        "categoria": {
+            "nombre": "Reuniones privada",
+            "id": "reuniones privada"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fiesta_priv-03",
+        "titulo": "Reunion Privada de",
+        "imagen": "./imagenes/img_tienda/reuniones/03.jpg",
+        "categoria": {
+            "nombre": "Reuniones privada",
+            "id": "reuniones privada"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fiesta_priv-04",
+        "titulo": "Reunion Privada de",
+        "imagen": "./imagenes/img_tienda/reuniones/04.jpg",
+        "categoria": {
+            "nombre": "Reuniones privada",
+            "id": "reuniones privada"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fiesta_priv-05",
+        "titulo": "Reunion Privada de",
+        "imagen": "./imagenes/img_tienda/reuniones/05.jpg",
+        "categoria": {
+            "nombre": "Reuniones privada",
+            "id": "reuniones privada"
+        },
+        "precio": 1000
+    }
+]

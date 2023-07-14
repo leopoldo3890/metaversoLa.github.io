@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="shortcut icon" href="./imagenes/_fd1862bb-e14c-423a-ac61-68fafbd2f3d9.jpg" type="image/x-icon"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/tienda.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  
+</head>
+<body>
+<!--menu de la izquierda-->
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Tienda de eventos</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">METAVERSO-LA</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html"> Regresar a la pagina </a>
+                    </li>
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="conferencia" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Conferencia</button>
+                    </li>
+                    <li>
+                        <button id="funcion de cine" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Funcion de cine</button>
+                    </li>
+                    <li>
+                        <button id="reuniones privada" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Reuniones privadas</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+           
+           
+           
+        </aside>
+
+        <!--cuerpo donde se colocan los productos-->
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS y son los productos -->
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/tienda.js"></script>
+    <script src="js/menutienda.js"></script>
+</body>
+
+<footer>
+    <div class="container-footer-all">
+        <div class="container-body">
+            <div class="colum1">
+                <h1>
+                    METAVERSO-LA
+                </h1>
+<br><br>
+                <center><img id="colum1_img" src="./imagenes/icon_footer/investel.jpg"></center>
+             
+
+                <p>
+                    La Oficina Investel es una empresa privada que fue creada para encabezar 
+                    el concepto “Investel” cuyo objetivo es impulsar y en su caso coordinar los 
+                    esfuerzos de las organizaciones involucradas de la conocida “cuádruple hélice” 
+                    del desarrollo social hacia la meta de establecer en Aguascalientes las bases de 
+                    una primera entidad inteligente en Latinoamérica, o al menos en México.
+
+                </p>
+            </div>
+
+            <div class="colum2">
+                
+                <h1>Redes Sociales</h1>
+
+                <div class="row1">
+                    <a href="https://www.facebook.com/investel2050">
+                    <img src="./imagenes/icon_footer/facebook.png"></a>
+                    <label>Siguenos en Facebook</label>
+                </div>
+<br>
+                <div class="row1">
+                    <a  href="#">
+                    <img src="./imagenes/icon_footer/twitter.png"></a>
+                    <label>Siguenos en Twitter</label>
+                </div>
+<br>
+                <div class="row1">
+                    <a href="https://www.instagram.com/investel.mx/">
+                    <img src="./imagenes/icon_footer/instagram.png"></a>
+                    <label>Siguenos en Instagram</label>
+                </div>
+            </div>
+
+            <div class="colum3">
+                <h1>Informacion Contactos</h1>
+
+                <div class="row2">
+                    <img src="./imagenes/icon_footer/house.png">
+
+                    <label>
+                        Av. Las Americas 1701, 
+                        El dorado, 20235 Aguascalientes, 
+                        Ags. 
+                        Edificio nuevared piso 4.
+                    </label>
+                </div>
+
+                <div class="row2">
+                    <img src="./imagenes/icon_footer/smartphone.png">
+
+                    <label>Tel: 449 155 1806</label>
+                </div>
+
+                <div class="row2">
+                    <img src="./imagenes/icon_footer/contact.png">
+
+                    <label>admon.ige2020@gmail.com</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-footer">
+        <div class="footer">
+            <div class="copyright">
+                © 2023 Todos los Derechos Reservados |
+
+                <a href="http://www.investel.mx">Investel</a>
+            </div>
+
+            <div class="information">
+                <a href="http://www.investel.mx/sobre-nosotros">Informacion Compañia</a>
+
+                -
+
+                <a href="#">Privacion y Politica</a>
+
+                -
+
+                <a href="#">Terminos y Condiciones</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/slider.js"></script>
+<script src="./js/questions.js"></script>
+<script src="./js/menu.js"></script>
+</body>
+</html>
+
+<!--
+
+para colocar mas productos en el productos.json
+
+     {
+     "id": "conferencia-04",
+     "titulo": "Conferencia de Luis",
+     "imagen": "./imagenes/img_tienda/conferencias/04.jpg",
+     "categoria": {
+         "nombre": "conferencias",
+         "id": "conferencias"
+     },
+     "precio": 1000
+ },
+-->
