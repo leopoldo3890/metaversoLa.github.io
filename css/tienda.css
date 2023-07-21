@@ -46,9 +46,12 @@ aside {
     justify-content: space-between;
 }
 
+
 .logo {
     font-weight: 400;
     font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
 }
 
 .menu {
@@ -286,7 +289,7 @@ main {
     display: none;
 }
 
-/*** MEDIA QUERIES ***/
+/*** MEDIA'S ***/
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
